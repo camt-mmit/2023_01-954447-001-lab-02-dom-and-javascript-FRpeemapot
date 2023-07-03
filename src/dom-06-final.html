@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel ="stylesheet" href=""/>
+    <link rel="stylesheet" href="./css/material-symbols-outlined.css" />
+    <link rel="stylesheet" href=".css/dom-06-final.css" />
+    <script type="module" src="./js/dom-06-final.js" ></script>
+</head>
+<body>
+    
+        <div>
+            <button type="button" class="app-cmd-add-input app-cl-primary">
+                <i class="material-symbol-outlined"> add</i> 
+                Add Input
+            </button>
+        </div>
+
+        <div class="app-cmp-inputs-list">
+            <template class="app-tmp-input">
+        
+                <div class="app-cmd-add-input-container">
+                <label >
+                    <b>Number <span class="app-cmp-input-no"></span></b>
+                    <input type="number" value="0" class="app-cmp-input" />
+                </label>
+                <button type="button" class="app-cmd-remove-input app-cl-warn">
+                    <i class="material-symbol-outlined">delete_forever</i>
+                </button>
+            </div>
+        </template></div>
+       
+        <div>
+            <label>
+                <b>Result</b>
+                <output class="app-cmp-result">0</output>
+            </label>
+        
+        </div>
+    
+</body>
+</html>
